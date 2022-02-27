@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Home = () => {
   return (
     <div>
-      <section className="home ">
+      <section className="home " id="home">
         <div className="content">
          
         </div>
@@ -77,7 +77,7 @@ const Home = () => {
                   loop
                   muted
                 />
-
+ 
                 <Carousel.Caption></Carousel.Caption>
               </Carousel.Item>
 

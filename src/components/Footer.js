@@ -17,14 +17,7 @@ const Footer = () => {
               Customized Trips Couple Honeymoon Package #travelwithtravelogged
             </p>
 
-            <a
-              href="https://www.google.com/maps/place/Travelogged+India/@31.3066917,75.5434533,17z/data=!3m1!4b1!4m5!3m4!1s0x391a5bd7cbccdd45:0xfc9441e0ab7de9e8!8m2!3d31.3066917!4d75.545642"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {" "}
-              <FiMapPin size={30} />
-            </a>
+          
           </div>
 
           <div className="box">
@@ -55,6 +48,28 @@ const Footer = () => {
             </a>
             <a href="/">internshala</a>
           </div>
+
+
+          <div className="box">
+            <h4>Contact Info</h4>
+            <a
+              href="https://www.google.com/maps/place/Travelogged+India/@31.3066917,75.5434533,17z/data=!3m1!4b1!4m5!3m4!1s0x391a5bd7cbccdd45:0xfc9441e0ab7de9e8!8m2!3d31.3066917!4d75.545642"
+              target="_blank"
+              rel="noreferrer"
+            > 
+              {" "}
+              <FiMapPin size={30} />
+            </a>
+
+            <p>348, Green Ave, Kanshi Nagar, New Dashmesh Nagar, Kostadir, Jalandhar, Punjab 144002</p>
+
+
+            <h6 style={{color:"white"}}>Email: </h6>  <p>travelogged.info@gmail.com</p>
+          
+          </div>
+
+
+
         </div>
 
         <div className="mt-5">
