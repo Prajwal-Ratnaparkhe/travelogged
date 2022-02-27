@@ -16,7 +16,7 @@ const Packages = () => {
         </h1>
 
         
-        <div className=" container my-3">
+        <div className=" container">
           <div className="card">
             <img
               src="images/package/pack1.jpg"

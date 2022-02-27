@@ -96,6 +96,12 @@ const Home = () => {
             </Carousel>
           </div>
         </div>
+<div className="my-3">
+        <h3 style={{textShadow:"2px 2px 4px  " }}>Travel’s in our blood< br/>
+        Adventure awaits
+        </h3>
+        <h5 style={{textShadow:"4px 2px 4px  #88eb08" }}>Let’s travel</h5>
+        </div>
       </section>
     </div>
   );
