@@ -236,10 +236,6 @@ section {
   text-align: center;
 }
 
-.contact .row .image {
-  flex: 1 1 10rem;
-}
-
 .contact .row .image img {
   width: 100%;
 }
@@ -260,7 +256,7 @@ section {
 .contact .row form textarea {
   width: 49%;
   margin: 1rem 0;
-  padding: 1rem;
+  padding: 0.5rem;
   font-size: 1rem;
   color: #333;
   background: #f7f7f7;

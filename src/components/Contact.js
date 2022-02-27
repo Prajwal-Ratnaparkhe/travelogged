@@ -14,6 +14,7 @@ const Contact = () => {
           <span>T</span>
         </h1>
 
+<div className="container">
         <div className="row">
           <div className="image">
             <img src="images/contact.jpg" alt="contact" />
@@ -41,6 +42,7 @@ const Contact = () => {
               Success
             </button>
           </form>
+        </div>
         </div>
       </section>
     </div>
