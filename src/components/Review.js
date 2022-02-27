@@ -10,7 +10,7 @@ import "swiper/css/scrollbar";
 
 const Review = () => {
   return (
-    <div className="review">
+    <div className="review" id="rev">
       <div className="container">
         <h1 className="heading">
           <span>R</span>

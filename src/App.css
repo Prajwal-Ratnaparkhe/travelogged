@@ -171,6 +171,141 @@ section {
   margin-top: auto;
 }
 
+/************************************services***************************/
+
+.services .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.services .box-container .box {
+  flex: 1 1 20rem;
+  border-radius: 0.6rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.services .box-container .box i {
+  font-size: 2rem;
+  color: orange;
+  padding: 0.5rem;
+}
+
+.services .box-container .box h4 {
+  font-size: 1rem;
+  color: #333;
+}
+
+.services .box-container .box p {
+  font-size: 1rem;
+  color: #666;
+  padding: 0.5rem 0;
+}
+
+.services .box-container .box:hover {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+/************************************contact***************************/
+
+.contact .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  text-align: center;
+}
+
+.contact .row .image {
+  flex: 1 1 10rem;
+}
+
+.contact .row .image img {
+  width: 100%;
+  height: 20rem;
+}
+.contact .row form {
+  flex: 1 1 10rem;
+  padding: 1rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+
+.contact .row form .inputBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact .row form .inputBox input,
+.contact .row form textarea {
+  width: 49%;
+  margin: 1rem 0;
+  padding: 1rem;
+  font-size: 1rem;
+  color: #333;
+  background: #f7f7f7;
+  text-transform: none;
+}
+
+.contact .row form textarea {
+  height: 5rem;
+  resize: none;
+  width: 100%;
+}
+
+/************************************footer***************************/
+
+.footer{
+  background: #333;
+
+}
+
+.footer .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  
+}
+.footer .box-container .box{
+  padding: 1rem 0;
+  flex: 1 1 15rem; 
+}
+
+.footer .box-container .box h4{
+  font-size: 1rem;
+  padding: .5rem 0;
+  color: #ffff;
+}
+
+.footer .box-container .box p{
+  font-size: 1rem;
+  padding: .5rem 0;
+  color: #eee;
+}
+
+.footer .box-container .box a{
+  display: block;
+  font-size: 1rem;
+  padding: .5rem 0;
+  color: #eee;
+}
+
+.footer .box-container .box a:hover{
+ color: cornflowerblue;
+ text-decoration: underline;
+}
+
+.footer .credit{
+  text-align: center;
+  padding: 1rem 15.8rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: normal;
+  color: #ffff;
+  border-top: .1rem solid rgba(255, 255, 255, 0.2);
+}
+
 /************************************end***************************/
 
 .App-link {
@@ -186,23 +321,10 @@ section {
   }
 }
 
-@media (max-width: 768px) {
-  header .navbar {
-    position: absolute;
-    top: 0%;
-    right: 0;
-    left: 0;
-    background: #333;
-    padding: 1rem 2rem;
-    border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
-  }
-}
-
-@media (max-width: 450px) {
-  html {
-    font-size: 50%;
-  }
-  .heading span {
-    font-size: 2.5rem;
-  }
+#gallery::before {
+  display: block;
+  content: " ";
+  margin-top: -65px;
+  height: 65px;
+  visibility: hidden;
 }

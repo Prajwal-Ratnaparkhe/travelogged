@@ -3,7 +3,7 @@ import React from "react";
 const Trip = () => {
   return (
     <div>
-      <section className="trip my-3">
+      <section className="trip my-3" id="gallery">
         <h1 className="heading">
           <span>G</span>
           <span>A</span>

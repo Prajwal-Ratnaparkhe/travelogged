@@ -2,7 +2,7 @@ import React from "react";
 
 const Packages = () => {
   return (
-    <div>
+    <div id="pac">
       <section className="pakages">
         <h1 className="heading">
           <span>P</span>
@@ -14,7 +14,6 @@ const Packages = () => {
           <span>E</span>
           <span>S</span>
         </h1>
-        
 
         <div className=" card-deck my-3">
           <div className="card">
