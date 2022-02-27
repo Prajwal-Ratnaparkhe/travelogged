@@ -5,13 +5,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Home = () => {
   return (
     <div>
-      <section className="home">
+      <section className="home ">
         <div className="content">
-          <h3> Travel’s in our blood</h3>
-          <p>Life is for living</p>
+         
         </div>
 
-      
+        {/*  style={{ height: "600px", width: "900px" }} */}
 
         <div>
           <div class="container-fluid">
@@ -23,7 +22,7 @@ const Home = () => {
                 <video
                   src="/Videos/front2.mp4"
                   className="d-block w-100"
-                  style={{ height: "600px", width: "900px" }}
+                 style={{height:"500px"}}
                   autoPlay
                   loop
                   muted
@@ -35,7 +34,7 @@ const Home = () => {
                 <video
                   src="/Videos/front1.mp4"
                   className="d-block w-100"
-                  style={{ height: "600px", width: "900px" }}
+                  style={{height:"500px"}}
                   autoPlay
                   loop
                   muted
@@ -47,7 +46,7 @@ const Home = () => {
                 <video
                   src="/Videos/front3.mp4"
                   className="d-block w-100"
-                  style={{ height: "600px", width: "900px" }}
+                  style={{height:"500px"}}
                   autoPlay
                   loop
                   muted
@@ -60,7 +59,7 @@ const Home = () => {
                 <video
                   src="/Videos/front4.mp4"
                   className="d-block w-100"
-                  style={{ height: "600px", width: "900px" }}
+                  style={{height:"500px"}}
                   autoPlay
                   loop
                   muted
@@ -73,7 +72,7 @@ const Home = () => {
                 <video
                   src="/Videos/front5.mp4"
                   className="d-block w-100"
-                  style={{ height: "600px", width: "900px" }}
+                  style={{height:"500px"}}
                   autoPlay
                   loop
                   muted
@@ -86,9 +85,9 @@ const Home = () => {
                 <video
                   src="/Videos/front6.mp4"
                   className="d-block w-100"
-                  style={{ height: "600px", width: "900px" }}
+                  style={{height:"500px"}}
                   autoPlay
-                  loop
+                  loop  
                   muted
                 />
 
