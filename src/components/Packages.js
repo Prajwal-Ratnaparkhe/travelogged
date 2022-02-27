@@ -15,7 +15,8 @@ const Packages = () => {
           <span>S</span>
         </h1>
 
-        <div className=" card-deck my-3">
+        
+        <div className=" container my-3">
           <div className="card">
             <img
               src="images/package/pack1.jpg"
@@ -124,11 +125,10 @@ const Packages = () => {
               </div>
             </div>
           </div>
-        </div>
+       
+       
 
-        {/*  Next row */}
-
-        <div className=" card-deck my-3">
+        
           <div className="card">
             <img
               src="images/package/pack4.jpg"
@@ -237,11 +237,9 @@ const Packages = () => {
               </div>
             </div>
           </div>
-        </div>
+       
 
-        {/*  Next row */}
-
-        <div className=" card-deck my-3">
+       
           <div className="card">
             <img
               src="images/package/pack9.jpg"

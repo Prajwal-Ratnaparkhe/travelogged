@@ -14,7 +14,7 @@ const Trip = () => {
           <span>Y</span>
         </h1>
 
-        <div className=" card-deck my-3">
+        <div className=" container">
           <div className="card">
             <img
               src="images/recenttrip/trip1.jpg"
@@ -38,9 +38,7 @@ const Trip = () => {
               className="card-img-top"
             />
           </div>
-        </div>
-
-        <div className=" card-deck my-3">
+        
           <div className="card">
             <img
               src="images/recenttrip/trip4.jpg"
@@ -64,9 +62,9 @@ const Trip = () => {
               className="card-img-top"
             />
           </div>
-        </div>
+        
 
-        <div className=" card-deck my-3">
+       
           <div className="card">
             <img
               src="images/recenttrip/trip7.jpg"
